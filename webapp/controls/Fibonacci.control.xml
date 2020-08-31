@@ -1,0 +1,8 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Panel headerText="{$this>/title}">
+		<VBox>
+			<Text text="Previous Value: {$this>/firstValue} - Current Value: {$this>/secondValue}" class="sapUiSmallMarginBottom"/>
+			<Button text="Get next number in sequence" press="._onHandlePress" class="sapUiSmallMarginBottom"/>
+		</VBox>
+	</Panel>
+</core:FragmentDefinition>
