@@ -16,7 +16,7 @@ sap.ui.define([
 				}
 			});
 
-			this._byId("placeholder").addItem(this._myFibonacciControl);
+			this.byId("placeholder").addItem(this._myFibonacciControl);
 		},
 
 		onHandleNext: function (oEvent) {
@@ -24,7 +24,7 @@ sap.ui.define([
 		},
 
 		onHandleReset: function () {
-			this._byId("fibControlByView").reset(5, 10);
+			this.byId("fibControlByView").reset(5, 10);
 			this._myFibonacciControl.reset(50, 100);
 		}
 	});
