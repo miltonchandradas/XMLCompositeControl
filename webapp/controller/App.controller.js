@@ -1,6 +1,6 @@
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
-	"sap/m/MyControls/controls/Fibonacci",
+	"com/sap/controllibrary/controls/Fibonacci",
 	"sap/m/MessageToast"
 ], function (Controller, Fibonacci, MessageToast) {
 	"use strict";
